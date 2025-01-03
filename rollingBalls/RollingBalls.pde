@@ -1,8 +1,8 @@
 ArrayList<Ball> balls = new ArrayList<Ball>(); // List to store all balls
-float circleRadius = 350;
+float circleRadius = 380;
 float holeAngle = 0; // Angle of the hole along the radius
-float holeWidth = 1.2; // Angular width of the hole (in radians)
-float rotationSpeed = 0.04; // Speed of rotation
+float holeWidth = 0.8; // Angular width of the hole (in radians)
+float rotationSpeed = 0.08; // Speed of rotation
 
 void setup() {
   size(1024, 768);
